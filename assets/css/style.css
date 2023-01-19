@@ -56,7 +56,7 @@ button {
   display: flex;
   flex-direction: column;
 
-  gap: 35px;
+  gap: 32px;
 
 }
 
@@ -107,6 +107,10 @@ input {
   border-radius: 8px;
 
   background: #18181b;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 input:checked {
